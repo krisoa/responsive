@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    padding: 15px;
+    width: 360px;
+    height: auto;
+    flex-direction: column;
+}
+.container > div{
+    padding: 15px;
+}
+.hd{
+background-color: rgba(59, 148, 221, 0.801);
+
+}
+.hro{
+    background-color: rgb(184, 63, 63);
+
+}
+.cont{
+    background-color: rgb(58, 122, 58);
+
+}
+.sid{
+    background-color: rgb(146, 54, 146);
+
+}
+.ftr{
+    background-color: grey;
+
+}
