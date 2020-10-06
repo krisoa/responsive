@@ -33,6 +33,13 @@
     .filas{
         display: flex;}
     }
+    @media  (min-width: 1024px){
+        .filas{
+            width: 90%;
+            justify-content: flex-end;
+     }
+    }
+
 
 .cont{
     padding: 15px;
@@ -44,7 +51,12 @@
         width: 50%;
         }
     }
-   
+    @media  (min-width: 1024px){
+        .cont{
+            width: 40%;
+        }
+     }
+
  .sid{
     padding: 15px;
     margin: 1px;
@@ -56,9 +68,11 @@
         width: 50%;
         }
     }
-          
-         
-
+    @media  (min-width: 1024px){
+        .sid{
+            width: 40%;
+        }
+    }
 
 
 
