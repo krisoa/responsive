@@ -9,29 +9,45 @@
     flex-direction: column;
 }
 
-.container > div{
+.hd{
     padding: 15px;
     margin: 1px;
-}
-.hd{
-background-color: rgba(59, 148, 221, 0.801);
-
+    background-color: rgba(59, 148, 221, 0.801);
 }
 .hro{
+    padding: 15px;
+    margin: 1px;
     background-color: rgb(184, 63, 63);
 }
+.ftr{
+    padding: 15px;
+    margin: 1px;
+    background-color: grey;
+}
+
+.filas{
+    width: 100%;
+    height: auto;
+}
+    @media  (min-width: 768px){
+    .filas{
+        display: flex;}
+    }
 
 .cont{
+    padding: 15px;
+    margin: 1px;
      background-color: rgb(58, 122, 58);
     }  /* query*/
     @media  (min-width: 768px){
         .cont{
         width: 50%;
-       
         }
     }
    
  .sid{
+    padding: 15px;
+    margin: 1px;
      background-color: rgb(146, 54, 146);
     }
          /* query*/
@@ -42,9 +58,7 @@ background-color: rgba(59, 148, 221, 0.801);
     }
           
          
-.ftr{
-    background-color: grey;
-}
+
 
 
 
