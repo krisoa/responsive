@@ -4,12 +4,14 @@
     font-family: Arial, Helvetica, sans-serif;
     color: beige;
     padding: 15px;
-    width: 360px;
+    width: 100%;
     height: auto;
     flex-direction: column;
 }
+
 .container > div{
     padding: 15px;
+    margin: 1px;
 }
 .hd{
 background-color: rgba(59, 148, 221, 0.801);
@@ -17,17 +19,33 @@ background-color: rgba(59, 148, 221, 0.801);
 }
 .hro{
     background-color: rgb(184, 63, 63);
-
 }
+
 .cont{
-    background-color: rgb(58, 122, 58);
-
-}
-.sid{
-    background-color: rgb(146, 54, 146);
-
-}
+     background-color: rgb(58, 122, 58);
+    }  /* query*/
+    @media  (min-width: 768px){
+        .cont{
+        width: 50%;
+       
+        }
+    }
+   
+ .sid{
+     background-color: rgb(146, 54, 146);
+    }
+         /* query*/
+    @media (min-width: 768px){
+        .sid{
+        width: 50%;
+        }
+    }
+          
+         
 .ftr{
     background-color: grey;
-
 }
+
+
+
+  
